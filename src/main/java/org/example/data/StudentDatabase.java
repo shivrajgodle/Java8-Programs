@@ -23,7 +23,9 @@ public class StudentDatabase {
 
         Student student6 = new Student("James",4,3.9,"male", Arrays.asList("swimming","basketball","baseball","football"),331);
 
-        List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6);
+        Student student7 = new Student("James",2,7.1,"male", Arrays.asList("swimming","baseball","football"),331);
+
+        List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6,student7);
 
         return students;
     }
